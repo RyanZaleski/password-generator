@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+		<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" 	crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+
+		<header>
+
+			<h1>Password Generator</h1>
+
+		</header>
+
+		<main>
+
+			<h4>LENGTH</h4>
+			<div>
+			
+			<span>4</span>
+
+			<input type="range" id="length" name="length" min="4" max="32">
+
+			<span>32</span>
+
+			</div>
+
+			<button>Generate Password</button>
+
+		</main>
+
+		<section class="results">
+
+		<section>
+
+			<h4>WITH SPECIAL CHARS</h4>
+			<h6 id="spec">asedg%ef*£@</h6>
+
+		</section>
+
+		<section>
+
+			<h4>WITH NUMBERS</h4>
+			<h6 id="num">asdfas434562</h6>
+
+		</section>
+
+		<section>
+
+			<h4>WITH BOTH</h4>
+			<h6 id="both">asg%^433ds</h6>
+
+		</section>
+
+		</section>
+
+		
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,102 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 3000px){
+
+body {
+  background: rgb(0, 0, 47);
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+header h1{
+  text-align: center;
+  padding: 34px 0 60px 0;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 20px;
+}
+
+main div{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.212);
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  letter-spacing: 1.2px;
+}
+
+span {
+  font-size: 12px;
+  position: relative;
+  bottom: 3px;
+}
+
+main button {
+  padding: 15px 0;
+  border-radius: 12px;
+  background: linear-gradient(-25deg, rgb(14, 167, 154) 8%, rgb(6, 25, 167) 92%);
+  border: none;
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 1.1px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 100%;
+  padding: 80px 20px 0 20px;
+}
+
+
+
+.results h6{
+  width: 100%;
+  padding: 15px 0;
+  background: rgba(255, 255, 255, 0.212);
+  border-radius: 8px;
+}
+
+.results h4 {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.results h6 {
+  color: rgba(255, 255, 255, 0.787);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+}
+
